@@ -1,0 +1,20 @@
+command-line
+
+・仮想環境を起動
+myvenv\Scripts\activate
+
+・ウェブサーバを起動する
+(myvenv) 
+python manage.py runserver
+
+・ディレクトリの状態を確認する
+git status
+
+・git に対してこのディレクトリ内の変更を全て反映させる
+git add --all .
+
+・変更したかを履歴に保存
+git commit -m "Changed the HTML for the site."
+
+・gitにアップ
+git push
